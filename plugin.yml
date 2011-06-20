@@ -1,0 +1,9 @@
+name: CakePort
+main: com.gmail.marvinj91.CakePort.CakePort
+version: 0.5.1
+commands:
+  addcake:
+    description: Let's you add a cake. 
+  linkcakes:
+    description: Let's you link added cakes.
+
