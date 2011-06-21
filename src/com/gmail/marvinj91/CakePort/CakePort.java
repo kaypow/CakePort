@@ -121,8 +121,6 @@ public class CakePort extends JavaPlugin
 		 if(Permissions != null){
 			 if(Permissions.has(player, command) || player.isOp())
 				 return true;
-			 else
-				 player.sendMessage(ChatColor.DARK_RED + "You do not have permission \"" + ChatColor.WHITE + command + ChatColor.DARK_RED +  "\" to perform this action.");
 		 }
 		 else if(player.isOp())
 			 return true;
