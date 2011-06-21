@@ -84,7 +84,7 @@ public class CakePortPlayerListener extends PlayerListener
 		
 		//needs OP or Permissions
 		if(CakePort.Permissions != null){
-			if(player.isOp() || CakePort.CheckPermission(player, "cakeport.warp")){
+			if(player.isOp() || CakePort.Permissions.has(player, "cakeport.warp")){
 				if(isCakePort&& !hasTeleported.get(player)){
 					cakeName = Cakes.getName(blockin);
 					boolean isLinked = Files.CakeLinks.containsKey(cakeName);
